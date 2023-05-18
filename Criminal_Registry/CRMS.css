@@ -1,0 +1,96 @@
+html {
+    color: white;
+    background-color: black;
+    font-size: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-image: url('https://source.unsplash.com/W_5Eakb1598');
+  }
+  fieldset {
+    margin: 6px;
+    margin-top: 0px;
+    border-top-right-radius : 6px;
+    width: 60%;
+    font-size: 22px;
+    border-width: thick;
+    border-color: white;
+  }
+
+  body {
+    height: 400px;
+    width: 550px;
+    margin: 60px auto;
+    padding: 0 50px 50px 50px;
+    border-radius: 45px;
+    text-shadow: 3px 3px 1px rgb(3, 1, 1);
+    
+    
+  }
+  h1 {
+    color: rgb(248, 244, 244);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgb(3, 1, 1);
+    margin: 0;
+    color: white;
+}
+h2 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    width: 20%;
+    height: 50%;
+    border-radius: 5%;
+    text-shadow: 3px 3px 1px rgb(3, 1, 1);
+
+}
+
+label {
+    display: block;
+    width: 200px;
+    font-size: 18px;
+}
+input {
+    padding : 0px 250px 5px 0px;
+    outline: black;
+    border: 10px black;
+    box-sizing: border-box;
+    height: 30px;
+
+
+}
+button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 3px 3px 1px rgb(3, 1, 1);
+    transition-duration: 0.4s;
+  }
+  button:hover{
+    background-color: #52065e; 
+    color: white;
+  }
+
+  
+  p{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  input[type="checkbox"] {
+    transform: scale(2.0);
+    font-size: 12px;
+  }
+  a:hover,a:active {
+    color: rgb(243, 198, 232);
+}
+.pink {
+    color: pink;
+    text-shadow: none;
+}
